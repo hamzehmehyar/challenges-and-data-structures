@@ -7,4 +7,4 @@
 
 ### Challenge B: the most frequent elements in the array 
 
-![Most frequent element in the array](mostFrequent.jpg)
+![Most frequent element in the array](mostFrequentNumber.jpg)

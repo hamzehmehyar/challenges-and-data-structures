@@ -9,6 +9,6 @@
 
 ![Most frequent element in the array](mostFrequentNumber-updated.jpg)
 
-### challenge 2: Minimum value in the array
+### challenge 2: Minimum value in the Array
 
-![Minimum-Value](minimum-element.jpg)
+![Minimum-Value](minimum-element-edited.jpg)

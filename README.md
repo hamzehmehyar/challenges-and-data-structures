@@ -11,4 +11,4 @@
 
 ### challenge 2: Minimum value in the array
 
-![Minimum-Value](minimum-element.jpg)
+![Minimum-Value](minimum-element-edited.jpg)

@@ -8,3 +8,7 @@
 ### Challenge B: the most frequent elements in the array 
 
 ![Most frequent element in the array](mostFrequentNumber-updated.jpg)
+
+### challenge 2: Minimum value
+
+![Minimum-Value](minimum-element.jpg)

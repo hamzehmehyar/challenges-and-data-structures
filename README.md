@@ -22,3 +22,12 @@ Inside the reversed-Characters file we have a readme file that contains a screen
 [go to the output screenshot](./Reverse-Characters/Readme.md)
 
 [go to the console output](./Reverse-Characters/Programs.js)
+
+### challenge 4: Remove Middle Element
+
+![Remove middle element](./middleElementRemove.jpg)
+
+[go to the code source](./removeMiddleElement/removeMiddlelement.js)
+
+[go to the console output](./removeMiddleElement/readme.md)
+

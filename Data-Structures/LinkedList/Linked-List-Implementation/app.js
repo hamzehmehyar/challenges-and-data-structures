@@ -1,4 +1,6 @@
 const Linkedlist = require("./linkedlist");
+const reverseLlist = require("./Reverse/reverse");
+const reverse = require('./Reverse/reverse'); 
 
 
 const list = new Linkedlist();
@@ -17,5 +19,11 @@ list.insertAt(3 , 2);
 
 list.remove(9);
 
+
+list.print();
+
+const list2 = new reverseLlist();
+
+list2.reverse(list);
 
 list.print();

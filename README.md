@@ -46,3 +46,7 @@ click on this link to se the white board of the linkedlist reverse challenge
 ### mergeLists challenge
 
 [go the white board documentation and output and testing of the merge two lists challenge](./Data-Structures/LinkedList/Linked-List-Implementation/MergeSorted/readme.md)
+
+### Linked list rotate by k
+
+[go the the liked list rotation challenge](./Data-Structures/LinkedList/Linked-List-Implementation/RotateLinkedList/readme.md)

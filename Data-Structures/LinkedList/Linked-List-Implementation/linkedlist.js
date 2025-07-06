@@ -17,7 +17,9 @@ class Linkedlist {
         if(this.head === null){
 
             this.head = newNode;
+            this.size++; //
             return;
+            
 
         }
 
@@ -33,6 +35,8 @@ class Linkedlist {
         this.size++;
 
     }
+
+    
 
     remove(data){
 

@@ -2,6 +2,7 @@ const Linkedlist = require("./linkedlist");
 const reverseLlist = require("./Reverse/reverse");
 const reverse = require('./Reverse/reverse'); 
 const SortedMerge = require('./MergeSorted/sortedMerge');
+const rotateList = require('./RotateLinkedList/rotateLinkedList');
 
 
 /* const list = new Linkedlist();
@@ -31,7 +32,7 @@ list.print(); */
 
 //----------------------------------------------
 
-const myList = new Linkedlist();
+/* const myList = new Linkedlist();
 
 myList.add(5);
 myList.add(10);
@@ -56,4 +57,27 @@ const mergedHead = sortedMergeHamzeh.sortedMerge(myList.head, yourList.head);
 const mergedList = new Linkedlist();
 mergedList.head = mergedHead;
 
-mergedList.print();
+mergedList.print(); */
+
+const list = new Linkedlist();
+
+list.add(10);
+
+list.add(20);
+
+list.add(30);
+
+list.add(40);
+
+list.add(50);
+
+list.print();
+
+const rotator = new rotateList();
+
+const rotatedHead = rotator.rotate(list.head , 3 , list.size);
+
+list.head = rotatedHead;
+
+console.log("List after rotating left by 3 : ");
+list.print();

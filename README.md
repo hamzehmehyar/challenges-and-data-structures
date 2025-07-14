@@ -51,6 +51,6 @@ click on this link to se the white board of the linkedlist reverse challenge
 
 [go the the liked list rotation challenge](./Data-Structures/LinkedList/Linked-List-Implementation/RotateLinkedList/readme.md)
 
-### stack and queue implementation cha;;enge
+### stack and queue implementation challenge
 
 [go to the stack and queue whiteboards and console output and testing](./Data-Structures/StackAndQueue/readme.md)

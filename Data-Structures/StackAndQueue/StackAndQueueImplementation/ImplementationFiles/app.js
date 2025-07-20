@@ -1,5 +1,6 @@
 const stack = require("./stack");
 const queue = require("./queue");
+const stackWithDeleteMiddle = require("../DeleteMiddleElement/deleteMiddleElement");
 
 
 const stack1 = new stack();
@@ -42,3 +43,34 @@ console.log("-----Dequeue----");
 
 
 queue1.print();
+
+
+
+
+console.log("----------------------------------------------------------------------");
+
+const newStack = new stackWithDeleteMiddle();
+
+newStack.push(1);
+
+newStack.push(2);
+
+newStack.push(3);
+
+newStack.push(4);
+
+newStack.push(5);
+
+console.log("before deleting the middle element");
+
+newStack.print();
+
+newStack.deleteMiddle();
+
+console.log("after deleting the middle element");
+
+
+
+newStack.print();
+
+

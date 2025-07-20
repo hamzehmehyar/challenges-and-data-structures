@@ -80,6 +80,23 @@ class stack {
 
     }
 
+    toArray() {
+
+        const result = [];
+
+        let current = this.top;
+
+        while (current) {
+
+            result.push(current.value);
+
+            current = current.next;
+            
+  }
+        return result;
+
+}
+
 
 
 }

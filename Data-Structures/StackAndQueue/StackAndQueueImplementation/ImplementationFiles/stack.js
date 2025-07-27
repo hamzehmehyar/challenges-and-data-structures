@@ -48,6 +48,12 @@ class stack {
 
     }
 
+    getTop(){
+
+        return this.isEmpty() ? null : this.top.value;
+
+    }
+
     isEmpty(){
 
         return this.size === 0;

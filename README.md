@@ -58,3 +58,7 @@ click on this link to se the white board of the linkedlist reverse challenge
 ### Remove the middle element from the stack
 
 [go to the white board documentation and implementation and testing](./Data-Structures/StackAndQueue/StackAndQueueImplementation/DeleteMiddleElement/readme.md)
+
+### Minimum element in the stack challenge
+
+[go to the whiteboard documentation and implementation and testing](./Data-Structures/StackAndQueue/StackAndQueueImplementation/MinStack/readme.md)

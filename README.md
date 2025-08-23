@@ -69,4 +69,4 @@ click on this link to se the white board of the linkedlist reverse challenge
 
 ### Find the second maximum value in the tree
 
-[go to the whiteboard documentation and implementation and testing](./Data-Structures/Trees/TreeImplementation/secondMaxValue.md)
+[go to the whiteboard documentation and implementation and testing for the challenge](./Data-Structures/Trees/TreeImplementation/secondMaxValue.md)

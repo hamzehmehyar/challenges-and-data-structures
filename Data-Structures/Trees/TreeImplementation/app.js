@@ -1,5 +1,7 @@
 const BinarySearchTree = require("./BinarySearchTree");
 
+const secondMaxValue = require("./SecondMaxValue");
+
 const tree = new BinarySearchTree(10); //the root is 10
 
 tree.add(5);
@@ -61,6 +63,28 @@ console.log("----------------------------------------");
 console.log("tree after removing");
 
 tree.print();
+
+console.log("----------------------------------------");
+
+const bst = new secondMaxValue();
+
+bst.add(50);
+bst.add(30);
+bst.add(70);
+bst.add(60);
+bst.add(80);
+
+console.log("Tree structure");
+
+bst.print();
+
+console.log("the second max value is : ", bst.findSecondMax());
+
+
+
+
+
+
 
 
 

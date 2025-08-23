@@ -1,6 +1,8 @@
 //test adding a node
 const BinarySearchTree = require("../BinarySearchTree");
 
+const secondMaxValue = require("../SecondMaxValue");
+
 test("test adding nodes to the tree" , () => {
 
     const bst = new BinarySearchTree(10);
@@ -167,3 +169,49 @@ test("PostOrder Traversal" , () => {
         expect(result).toEqual([2, 7, 5, 12, 20, 15, 10]);
 
 })
+
+//test find the 2nd maximum value in the tree
+
+test("second maximum value" , () => {
+
+    const bst = new secondMaxValue();
+    
+    bst.add(10);
+
+    bst.add(5);
+
+    bst.add(40);
+
+    bst.add(20);
+
+    bst.add(15);
+
+    expect(bst.findSecondMax()).toBe(20);
+
+});
+
+test("second maximum value with only one node" , () => {
+
+    const bst = new secondMaxValue(10);
+
+    const result = bst.findSecondMax();
+
+    expect(result).toBe(null);
+
+});
+
+test("test with a tree that have negative values" , () => {
+
+    const bst = new secondMaxValue(-10);
+
+    bst.add(-20);
+
+    bst.add(-5);
+
+    bst.add(-15);
+
+    const result = bst.findSecondMax();
+
+    expect(result).toBe(-10);
+
+});

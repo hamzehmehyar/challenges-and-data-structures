@@ -1,7 +1,8 @@
-//test adding a node
 const BinarySearchTree = require("../BinarySearchTree");
 
 const secondMaxValue = require("../SecondMaxValue");
+
+const sumLeaf = require("../leafSsum");
 
 test("test adding nodes to the tree" , () => {
 
@@ -213,5 +214,41 @@ test("test with a tree that have negative values" , () => {
     const result = bst.findSecondMax();
 
     expect(result).toBe(-10);
+
+});
+
+test("test calculating the sum of all the leaf nodes" , () => {
+
+    const Tree = new sumLeaf();
+
+    Tree.add(10);
+    Tree.add(5);
+    Tree.add(15);
+    Tree.add(3);
+    Tree.add(7);
+    Tree.add(12);
+    Tree.add(18);
+
+    const result = Tree.leafSum();
+
+    expect(result).toBe(40);
+
+
+});
+
+test("calculating the sum of the leaf node with negative values" , () => {
+
+
+    const Tree = new sumLeaf(-10);
+
+    Tree.add(-20);
+
+    Tree.add(-5);
+
+    Tree.add(-15);
+ 
+    const result = Tree.leafSum();
+
+    expect(result).toBe(-20);
 
 });

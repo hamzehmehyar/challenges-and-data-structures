@@ -2,6 +2,8 @@ const BinarySearchTree = require("./BinarySearchTree");
 
 const secondMaxValue = require("./SecondMaxValue");
 
+const leafSum = require("./leafSsum");
+
 const tree = new BinarySearchTree(10); //the root is 10
 
 tree.add(5);
@@ -79,6 +81,26 @@ console.log("Tree structure");
 bst.print();
 
 console.log("the second max value is : ", bst.findSecondMax());
+
+
+console.log("----------------------------------------");
+
+const Tree = new leafSum();
+
+Tree.add(10);
+Tree.add(5);
+Tree.add(15);
+Tree.add(3);
+Tree.add(7);
+Tree.add(12);
+Tree.add(18);
+
+Tree.print();
+
+console.log("leafSum : " , Tree.leafSum());
+
+
+
 
 
 

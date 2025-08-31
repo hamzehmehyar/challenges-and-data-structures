@@ -70,3 +70,7 @@ click on this link to se the white board of the linkedlist reverse challenge
 ### Find the second maximum value in the tree
 
 [go to the whiteboard documentation and implementation and testing for the challenge](./Data-Structures/Trees/TreeImplementation/secondMaxValue.md)
+
+### leafSum challenge calculating the sum of the leafs of the tree
+
+[go to the whiteboard documentation and implementation and testing for the challenge](./Data-Structures/Trees/TreeImplementation/leafSum.md)
